@@ -45,3 +45,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'nokogiri', '~> 1.5.0'
 end
+
+group :production do
+  gem 'mysql2', '< 0.3'
+end
