@@ -1,0 +1,16 @@
+--- 
+applications: 
+  .: 
+    name: myblog
+    url: ${name}.${target-base}
+    framework: 
+      name: rails3
+      info: 
+        mem: 256M
+        description: Rails Application
+        exec: 
+    mem: 256M
+    instances: 1
+    services: 
+      mysql-8f1d2: 
+        type: mysql
