@@ -1,8 +1,6 @@
 --- 
 applications: 
   .: 
-    name: myblog
-    url: ${name}.${target-base}
     framework: 
       name: rails3
       info: 
