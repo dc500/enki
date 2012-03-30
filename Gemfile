@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.4'
+gem 'addressable', '2.2.6'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -38,6 +39,8 @@ gem 'will_paginate', '= 3.0.pre2'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
+  gem 'vmc', '>= 0.3.16.beta.5'
+  gem 'caldecott'
   gem 'cucumber-rails'
   gem 'webrat'
   gem 'factory_girl'
