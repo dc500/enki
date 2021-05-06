@@ -46,7 +46,7 @@ group :development, :test do
   gem 'factory_girl'
   gem 'rspec'
   gem 'rspec-rails'
-  gem 'nokogiri', '~> 1.5.0'
+  gem 'nokogiri', '~> 1.11.0'
 end
 
 group :production do

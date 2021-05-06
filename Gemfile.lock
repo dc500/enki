@@ -76,10 +76,16 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    mini_portile2 (2.5.1)
     mysql2 (0.2.18)
-    nokogiri (1.5.0)
-    nokogiri (1.5.0-java)
+    nokogiri (1.11.0)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
+    nokogiri (1.11.0-java)
+      racc (~> 1.4)
     polyglot (0.3.1)
+    racc (1.5.2)
+    racc (1.5.2-java)
     rack (1.2.1)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
@@ -164,7 +170,7 @@ DEPENDENCIES
   jruby-openssl
   lesstile
   mysql2 (< 0.3)
-  nokogiri (~> 1.5.0)
+  nokogiri (~> 1.11.0)
   rack-openid
   rails (= 3.0.4)
   rspec
